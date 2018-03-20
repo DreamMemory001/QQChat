@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qqchat">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.qqchat.Start.MyQQStartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.qqchat.Start.PagerActivity"/>
+        <activity android:name="com.example.qqchat.Start.WhatsnewDoor"/>
+        <activity android:name="com.example.qqchat.Fragment.ContactActivity"/>
+        <activity android:name="com.example.qqchat.Fragment.MessageActivity"/>
+        <activity android:name="com.example.qqchat.Fragment.TrendsActivity"/>
+        <activity android:name="com.example.qqchat.Fragment.ButtomTabLayoutActivity"/>
+        <activity android:name="com.example.qqchat.horizontalscrollview.TheClick"/>
+        <activity android:name=".myQQ.PopuMenu"/>
+        <activity android:name=".LogLn.Login"/>
+
+    </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

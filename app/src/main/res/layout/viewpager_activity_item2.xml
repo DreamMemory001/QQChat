@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="语音聊天是如此的简单轻松"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:textColor="#fff"/>
+
+</RelativeLayout>
